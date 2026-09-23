@@ -194,4 +194,4 @@ The uploaded `x_y_serial.ino` was inspected directly. This library preserves its
 
 See [VALIDATION.md](VALIDATION.md) for build results and remaining physical checks. Folder structure follows the [Arduino library specification](https://docs.arduino.cc/arduino-cli/library-specification/).
 
-`library.properties` uses the existing author's profile as a temporary information link. Before public distribution, choose the library repository URL, confirm maintainer metadata, and select a license. No license for the uploaded sketch was supplied, so this package does not assign one on the author's behalf.
+The project repository is [brian-kelly-nscc/estn_r2r](https://github.com/brian-kelly-nscc/estn_r2r). Before public distribution, confirm maintainer metadata and select a license. No license for the uploaded sketch was supplied, so this package does not assign one on the author's behalf.
