@@ -188,10 +188,3 @@ Use your board's current port if it differs. The sender waits for the Uno's rese
 - **No serial response:** check the sketch (text versus binary), port, baud rate, and whether another program has the port open.
 - **Unsupported board error:** select an ATmega328P Uno R3. Arbitrary pin mapping is not provided in this version.
 
-## Design and verification
-
-The uploaded `x_y_serial.ino` was inspected directly. This library preserves its shape geometry, seven-segment patterns, line interpolation, command letters, port mapping, and default dwell. The WaveShield attachment was a screenshot: its object/`begin()`/drawing style and folder layout informed this design; its implementation source was not available from the attachment.
-
-See [VALIDATION.md](VALIDATION.md) for build results and remaining physical checks. Folder structure follows the [Arduino library specification](https://docs.arduino.cc/arduino-cli/library-specification/).
-
-The project repository is [brian-kelly-nscc/estn_r2r](https://github.com/brian-kelly-nscc/estn_r2r). Before public distribution, confirm maintainer metadata and select a license. No license for the uploaded sketch was supplied, so this package does not assign one on the author's behalf.
